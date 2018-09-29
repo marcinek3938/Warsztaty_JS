@@ -30,4 +30,11 @@ document.addEventListener('DOMContentLoaded', function() {
       buttons[i].addEventListener('click', showHide);
     }
 
+var menu = document.querySelector('.navbar');
+
+    window.addEventListener('scroll', function() {
+        menu.style.borderBottom = '1px solid #7f7f7f';
+         
+    });
+
     });
