@@ -37,10 +37,33 @@ var menu = document.querySelector('.navbar');
          
     });
 
-    var gora = document.querySelector('.dogory');
+var gora = document.querySelector('.dogory');
   
     gora.addEventListener('click', function() {
     window.scroll (0,0);
     });
+
+var items = document.querySelectorAll('.org');
+var dots = document.querySelectorAll('.dot');
+var indexClicked;
+
+    for (var i = 0; i < dots.length; i++) {
+        dots[i].addEventListener('click', function() {
+            for (var i = 0; i < items.length; i++) {
+                dots[i].classList.remove('active');
+                items[i].classList.remove('visible')       
+            }
+    
+    this.classList.add('active');        
+
+    for (var i = 0; i < dots.length; i++) {
+        indexClicked = i;
+        break;
+    }
+        
+        
+        
+        });
+      }
 
     });

@@ -321,3 +321,10 @@ footer p {
   display: flex;
   justify-content: flex-end;
 }
+
+.org {
+  display: none;
+}
+.visible {
+  display: inline-block;
+}
