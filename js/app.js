@@ -37,4 +37,10 @@ var menu = document.querySelector('.navbar');
          
     });
 
+    var gora = document.querySelector('.dogory');
+  
+    gora.addEventListener('click', function() {
+    window.scroll (0,0);
+    });
+
     });

@@ -309,3 +309,15 @@ footer p {
   color: #424343;
   margin-top: 3rem;
 }
+
+.dogory {
+  background-color: #ea6c56;
+  height: 5rem;
+  width: 10rem;
+  font-size: 1rem;
+}
+
+.gorydo {
+  display: flex;
+  justify-content: flex-end;
+}
